@@ -2,6 +2,10 @@
 
 This folder contains code for preparing RGB tree-canopy segmentation tiles from a multispectral lychee orthophoto and annotated crown polygons, inspecting inputs and labels, and running inference/tree counting with an existing trained YOLO segmentation model.
 
+IMPORTANT NOTES:
+- qgis file used did not follow the required drawn 1/5th number of trees clustered together in one area of the tiff file photo
+- this prototype was created prior to reading the reference file sent in the LINE group chat (10/25/26)
+
 ## What is included
 
 - `inspect_bands.py`: prints raster band metadata.
