@@ -1,0 +1,15 @@
+# Local environment and cache
+.venv/
+venv/
+__pycache__/
+*.pyc
+.idea/
+.env
+.env.*
+# Generated datasets, large imagery and predictions
+prototype-data/
+runs/
+*.pt
+*.pth
+*.tif
+*.tiff
